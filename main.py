@@ -39,7 +39,7 @@ async def on_message(message):
             text = message.content.lower()
             if key in text.split():
                 await message.delete()
-                channel = client.get_channel(858495313740300318) #Updated for sex discord
+                channel = client.get_channel(858495313740300318)
                 embed = discord.Embed(
                     title="Global Filter",
                     description="Banned word triggered by `Wildcard`",
@@ -93,7 +93,7 @@ Currently running **v1.4.1**
         await message.channel.send(embed=embed)
 
     
-    if message.content.startswith('$rileybanword'): ##fucking riley
+    if message.content.startswith('$rileybanword'):
         text = message.content.replace("$rileybanword ", "", 1)
         if message.author.id == "852614202014302219" or message.author.id == "830607392802078791" or message.author.id == "599040744334032912":
             if text == "$rileybanword":
