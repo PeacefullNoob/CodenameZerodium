@@ -1,5 +1,5 @@
 # CodenameZerodium
 
-Classified confidential. Do not leak.
+Discord bot using Discord.py API wrapper
 
-Copyright Peacefullnoob, 2021.
+Does moderation stuff, idk it's been a while since did this
